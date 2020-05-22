@@ -16,6 +16,7 @@ HEADER_DIRS = [
 
   # Finally fall back to /usr
   '/usr/include',
+  '/app/vendor/include',
 ]
 
 LIB_DIRS = [
@@ -30,6 +31,7 @@ LIB_DIRS = [
 
   # Finally fall back to /usr
   '/usr/lib',
+  '/app/vendor/lib',
 ]
 
 dir_config('libpostal', HEADER_DIRS, LIB_DIRS)
